@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: transparent ;    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+header{
+    background: yellow;
+    text-align:  center;
+    padding: 20px;
+}
+#containeraside{
+    width: 100%;
+    display: flex;
+}
+#conteudo1{
+        background: purple;
+        color: white;
+        text-align: center;
+        padding: 100px;
+}
+aside{
+    background: blue ;
+    padding: 40px;
+    flex: 1;
+}
+footer{
+    background: green;
+    padding: 50px;
+}
+
+@media (min-widht: 700px){
+    #container{
+        flex-direction: column;
+    }
+    #containeraside{
+        display: flex;
+    }
+    #conteudo{
+        flex:2;
+    }
+    aside{
+        flex: 1;
+    }
+
+}
