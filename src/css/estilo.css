@@ -26,6 +26,8 @@ header{
         color: white;
         text-align: center;
         padding: 100px;
+        flex: 2;
+        width: 100%;
 }
 aside{
     background: blue ;
@@ -35,6 +37,7 @@ aside{
 footer{
     background: green;
     padding: 50px;
+    width: 100%;
 }
 
 @media (min-widht: 700px){
@@ -50,5 +53,4 @@ footer{
     aside{
         flex: 1;
     }
-
 }
